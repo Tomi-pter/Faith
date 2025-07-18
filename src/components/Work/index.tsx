@@ -10,25 +10,25 @@ import Nav from "../shared/Nav";
 const Work = () => {
   const workArray: Array<GridDetails> = [
     {
-      url: "",
+      url: "/work/artefix",
       title: "Artefix",
       description: "Connects customers with skilled artisans",
       img: artefix,
     },
     {
-      url: "",
+      url: "/work/dtc",
       title: "Delivery Transport Connect",
       description: "Logistics platform for seamless shipping solutions",
       img: dtc,
     },
     {
-      url: "",
+      url: "/work/pyramid",
       title: "Pyramid",
       description: "An exclusive platform for Finance Enthusiasts",
       img: monolith,
     },
     {
-      url: "",
+      url: "/work/awenix",
       title: "Awenix",
       description: "Providing farmers with nutritious diet for livestock",
       img: awenix,
