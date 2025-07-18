@@ -8,7 +8,7 @@ import Awenix from "./pages/Work/Awenix";
 import DTC from "./pages/Work/DTC";
 import Hadupad from "./pages/Playground/Hadupad";
 import DS from "./pages/Playground/DS";
-import dottedBg from "./assets/work_dotted_bg.png";
+// import dottedBg from "./assets/work_dotted_bg.png";
 import Playground from "./pages/Playground";
 import Live from "./pages/Live";
 
@@ -23,7 +23,7 @@ function App() {
 
   if (isWorkSubRoute && !isDTCSubRoute) {
     body.style.backgroundColor = "#ECF0F5";
-    body.style.backgroundImage = `url(${dottedBg})`;
+    // body.style.backgroundImage = `url(${dottedBg})`;
   } else if (isHadupadSubRoute) {
     body.style.backgroundColor = "black";
   } else if (isDSSubRoute) {
