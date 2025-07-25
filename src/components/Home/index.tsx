@@ -9,7 +9,7 @@ import Contact from "./BodyGrid/Contact";
 
 const BodyGrid = () => {
   return (
-    <section className="flex flex-col w-full md:grid md:grid-cols-6 md:mt-24 gap-x-5 gap-y-6">
+    <section className="flex flex-col w-full md:grid md:grid-cols-6 md:mt-10 gap-x-5 gap-y-6">
       <Me />
       <Socials />
       <Projects />
