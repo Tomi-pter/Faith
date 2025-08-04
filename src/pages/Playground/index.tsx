@@ -13,12 +13,15 @@ const Playground = () => {
       img: hadupad,
       title: "Hadupad Brand Design",
       url: "/playground/hadupad",
+      bgColor: "#FFEED8",
+      bgImg: true,
     },
     {
       description: "Travelling light or heavy, DS Trips is here for you",
       img: ds,
       title: "DS Trips",
       url: "/playground/ds",
+      bgColor: "#061833",
     },
   ];
 

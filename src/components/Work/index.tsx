@@ -4,7 +4,7 @@ import dtc from "../../assets/dtc.png";
 import artefix from "../../assets/artefix.png";
 import monolith from "../../assets/monolith.png";
 import laraad from "../../assets/laraad.png";
-import awenix from "../../assets/awenix_thumbnail.svg";
+import awenix from "../../assets/awenix_thumbnail.png";
 import Nav from "../shared/Nav";
 
 const Work = () => {
@@ -14,24 +14,28 @@ const Work = () => {
       title: "Artefix",
       description: "Connects customers with skilled artisans",
       img: artefix,
+      bgColor: "#3D4F7533",
     },
     {
       url: "/work/dtc",
       title: "Delivery Transport Connect",
       description: "Logistics platform for seamless shipping solutions",
       img: dtc,
+      bgColor: "#203470",
     },
     {
       url: "/work/pyramid",
       title: "Pyramid",
       description: "An exclusive platform for Finance Enthusiasts",
       img: monolith,
+      bgColor: "#171717",
     },
     {
       url: "/work/awenix",
       title: "Awenix",
       description: "Providing farmers with nutritious diet for livestock",
       img: awenix,
+      bgColor: "#0092DF",
     },
     {
       url: "",
@@ -40,6 +44,7 @@ const Work = () => {
         "A seamless utility bill payment app with little to no charges",
       img: laraad,
       inProgress: true,
+      bgColor: "#000000B2",
     },
   ];
   return (

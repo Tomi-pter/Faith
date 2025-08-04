@@ -15,6 +15,7 @@ const Live = () => {
       title: "Seraphina systems",
       url: "https://seraphina-systems.com/",
       live: true,
+      bgColor: "#000000",
     },
     {
       description: "Seamless property rental company",
@@ -22,6 +23,7 @@ const Live = () => {
       title: "Hadupad",
       url: "https://hadupad.vercel.app/",
       live: true,
+      bgColor: "#D84834",
     },
     {
       description: "A robust medical directory app",
@@ -29,6 +31,7 @@ const Live = () => {
       title: "Medicare",
       url: "https://www.figma.com/proto/keVnkaE0asoiT44LCY5UJj/Medicare?node-id=285-3661&t=gDOiVcYJPKpXO1mw-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=11%3A216",
       live: true,
+      inProgress: true,
     },
   ];
 
